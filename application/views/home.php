@@ -12,7 +12,7 @@
         <div class="parallax text-center" style="background-image: url(assets/images/4.png);">
           <div class="parallax-pattern-overlay">
             <div class="container text-center" style="height:600px;padding-top:170px;">
-              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="<?= base_url('assets/images/biodata/' . $biografi["foto"]); ?>" alt=""/></a>
+              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="<?= base_url('assets/images/biodata/3.png'); ?>" alt=""/></a>
               <h2 class="intro"><a href="index.html"><?php echo $biografi['nama_lengkap'] ?></a></h2>
             </div>
           </div>
@@ -28,7 +28,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-              <img class="img-fluid" src="<?= base_url('assets/images/team/4.jpg'); ?>" alt="">
+              <img class="img-fluid" src="<?= base_url('assets/images/biodata/' . $biografi["foto"]); ?>" alt="">
             </div>
           </div> 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
