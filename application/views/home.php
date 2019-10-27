@@ -9,10 +9,10 @@
   <div class="wrapper" id="wrapper">
     <header>
       <div class="banner row" id="banner">
-        <div class="parallax text-center" style="background-image: url(assets/images/<?php echo $biografi['foto'] ?>);">
+        <div class="parallax text-center" style="background-image: url(assets/images/4.png);">
           <div class="parallax-pattern-overlay">
             <div class="container text-center" style="height:600px;padding-top:170px;">
-              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="<?= base_url('assets/images/3.png'); ?>" alt=""/></a>
+              <a href="#"><img id="site-title" class=" wow fadeInDown" wow-data-delay="0.0s" wow-data-duration="0.9s" src="<?= base_url('assets/images/biodata/' . $biografi["foto"]); ?>" alt=""/></a>
               <h2 class="intro"><a href="index.html"><?php echo $biografi['nama_lengkap'] ?></a></h2>
             </div>
           </div>
